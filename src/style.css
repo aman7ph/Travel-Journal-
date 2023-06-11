@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+nav {
+  height: 50px;
+  background-color: brown;
+  max-width: 1100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container > h1 {
+  font-weight: bolder;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(236, 230, 230);
+}
+.image_container > img {
+  border-radius: 20px;
+}
+.card.image_container::after {
+  background-image: linear-gradient(red, yellow, green);
+}
+.detail_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.location {
+  display: flex;
+  margin-top: 10px;
+}
+.location > img {
+  height: 15px;
+  width: 15px;
+}
+.location > p {
+  color: #333;
+  margin-left: 3px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.location > a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+.location_name > h2 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.description {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 0 10px;
+}
