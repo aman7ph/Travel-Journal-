@@ -1,3 +1,4 @@
 # Travel-Journal-
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-9p693e)
+Biutiful travel journal static react app
+there is a demo on Demo_image folder
